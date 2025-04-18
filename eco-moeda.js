@@ -1,3 +1,8 @@
+// Em uma feira de doação de brinquedos recicliveis, você pode levar uma quanteidade de brinquedos
+//e a quantidade de brinquedos que você levar vai ser a quantidade de eco moedas que você vai receber
+//(Eco Moedas são as moedas de troca que você usa paea comprar mais binquedos). Mas caso você não levar
+// nenhum brinquedo, você não recebe nenhuma moeda. O maximo de moedas á receber são 3.
+
 function brinquedos(){
 let brinquedos = Number(prompt("Quantos brinquedos você levou?: "))
 
