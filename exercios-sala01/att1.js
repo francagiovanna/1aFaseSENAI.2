@@ -99,3 +99,28 @@ else{
     alert("Não é bissexto")
 }
 }
+// Junta o nome do usuário com um adjetivo e um superpoder aleatório.
+// Nome (ex: "Carlos").
+// "Capitão Carlos, o Invencível das Sombras"
+function exercicio3Lista2(){
+    let nome = prompt("Digite seu nome para saber seu nome de super heroi: ")
+    let min = 1
+    let max = 4
+    let numeroaleatorio = Math.floor(Math.random()* (max - min) + min)
+
+    Math.ceil
+
+    let frase1 = "Capitão américa"
+    let frase2 = "Homem de ferro"
+    let frase3 = "Homem aranha"
+
+    if(numeroaleatorio ===1 ){
+        alert(nome + frase1)
+    }
+    else if(numeroaleatorio ===2){
+        alert(nome + frase2)
+    }
+    else if (numeroaleatorio === 3){
+        alert(nome + frase3)
+    }
+}
