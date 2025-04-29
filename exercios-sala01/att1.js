@@ -124,3 +124,84 @@ function exercicio3Lista2(){
         alert(nome + frase3)
     }
 }
+// Mostra uma previsão aleatória com base no signo do usuário.
+// Seleção do signo (ex: "Leão").
+// "Hoje é um ótimo dia para buscar novos desafios, Leão!"
+function exercicio4Lista2(){
+    let signo = prompt("Digite qual é seu signo: ")
+    let aries, touro, gemeos, cancer, leao, virgem, libra, escorpiao, sargitario, capriconio, aquario, peixes 
+
+if(signo == aries){
+    alert("Hoje é um ótimo dia para buscar novos desafios, aries!")
+}
+else if(signo == touro){
+    alert("acredite no seu caminho")
+}
+else if(gemeos){
+    alert("confie no seu caminho")
+
+}
+else if(cancer){
+    alert("")
+}
+else if(leao){
+    alert("")
+}
+else if(virgem){
+    alert("")
+}
+else if(libra){
+    alert("")
+}
+else if(escorpiao){
+    alert("")
+}
+else if(sargitario){
+    alert("")
+}
+else if(capriconio){
+    alert("")
+}
+else if(aquario){
+    alert("")
+}
+else if(peixes){
+    alert("")
+}
+}
+// O usuário joga contra o computador para ver quem vence no jogo de
+// par ou ímpar.
+// 1. O usuário escolhe “Par” ou “Ímpar”.
+// 2. Depois, o usuário digita um número de 0 a 10
+// 3. O computador gera aleatoriamente um número de 0 a 10.
+// 4. O sistema soma os dois números.
+// 5. Se a soma for par e o usuário escolheu “Par”, ele ganha.
+// Se a soma for ímpar e o usuário escolheu “Ímpar”, ele também ganha.
+function exercicio5Lista2(){
+    let escolha = prompt("Escolha(par ou ímpar): ")
+    let numeroUsuario = prompt("Digite um número(de 0 a 10: ")
+    let numeroAleatorio = Math.floor(Math.random()* (10 - 0) + 0)
+    let soma = numeroUsuario + numeroUsuario
+
+    Math.ceil
+
+    if(soma % 2 ===0){
+        alert("Se você escolheu par, você ganhou!!")
+    }
+    else if(soma % 1 ===0){
+        alert("Se você escolheu impar, você ganhou!!")
+    }
+    else{
+        alert("Não ouve vencedor:(")
+    }
+    }
+// Conta quantos cliques o usuário deu.
+// Cliques em botão.
+// “Você clicou 32 vezes!” Ao clicar no botão de resultado.
+let contador = 0
+function clique(){
+    contador++
+}
+function mostrar(){
+    alert("Você clicou " + contador)
+}
