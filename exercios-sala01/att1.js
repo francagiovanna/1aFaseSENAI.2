@@ -275,6 +275,6 @@ function exercicio9Lista2(){
     resposta++
 }
 function mostrar(){
-    alert("Você respondeu: " + resposta)
+    alert  ("Você respondeu: " + resposta)
 
 }
