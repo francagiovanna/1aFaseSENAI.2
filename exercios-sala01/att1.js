@@ -205,3 +205,76 @@ function clique(){
 function mostrar(){
     alert("Você clicou " + contador)
 }
+// Usuário tenta adivinhar um número aleatório de 1 a 100.
+// Número digitado.
+// “Tente novamente.”
+function exercicio6Lista2(){
+    let numeroDigitado = Number(prompt("Digite um número de 1 a 100: "))
+    let numeroAleatorio = Math.floor(Math.random()* (100 - 1) + 0)
+
+    if(numeroDigitado == numeroAleatorio){
+        alert("Você acertou o número!!")
+    }
+    else{
+        alert("Tente novamente...")
+    }
+}
+// Perguntas de múltipla escolha com pontuação final.
+// Alternativa selecionada.
+// “Você acertou 3 de 5 perguntas.”
+function exercicio7Lista2(){
+    let pergunta1 = 5
+    let pergunta2 = 4
+    let pergunta3 = 3 
+    let pergunta4 = 2
+    let pergunta5 = 5
+    let certo1 = 5
+    let certo2 = 4
+    let certo3 = 2
+    let certo4 = 2
+    let certo5 = 3
+    let pontuacao = 0
+
+    if(pergunta1 === 5){
+        pontuacao++
+    }else{
+        alert("Pergunta 1 errada")
+    }
+    if(pergunta2 === 4){
+        pontuacao++
+    }else{
+        alert("Pergunta 2 errada")
+    }
+    if(pergunta3 === 2){
+        pontuacao++
+    }else{
+        alert("Pergunta 3 errada")
+    }
+    if(pergunta4 === 2){
+        pontuacao++
+    }else{
+        alert("Pergunta 4 errada")
+    }
+    if(pergunta5 === 3){
+        pontuacao++
+    }else{
+        alert("Pergunta 5 errada")
+    }
+
+    alert("Você acertou " + pontuacao + " de 5 perguntas. ")
+
+}
+// Responde aleatoriamente com “Sim”, “Não” ou “Talvez”.
+// Clique em botão.
+// “Talvez”
+let resposta1 = sim
+let resposta2 = nao
+let resposta3 = talvez
+let pergunta = prompt("Responda(sim, não, talvez): ")
+function exercicio9Lista2(){
+    resposta++
+}
+function mostrar(){
+    alert("Você respondeu: " + resposta)
+
+}
