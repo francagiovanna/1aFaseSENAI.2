@@ -58,3 +58,45 @@ function exercicio6(){
         } contador4++
     }
 }
+// Conte de 1 até 15 e mostre se o número é par ou ímpar.
+    let contador5 = 1
+function exercicio7(){
+    while(contador5 <= 15){
+        let resto1 = contador5 % 2
+        if(resto1 != 0){
+            alert("Número: " + contador5 + " é impar")
+        }else{
+            alert("Número: " + contador5 + " é par")}
+       contador5++
+    }
+    }
+    // Conte até 100 e imprima somente os divisíveis por 4.
+    let cont = 0
+    function exercicio8(){
+        while(cont <= 100){
+            let divis = cont % 4
+            if(divis == 0){
+                alert("Números: " + cont + " é divisivel")
+            } cont++
+        }
+    }
+    // Faça um loop que mostre os números de 1 a 10 com a frase “Número: X”.
+    let cont1 = 1
+    function exercicio9(){
+        while(cont <=10 ){
+            alert("Número: " + cont1)
+            cont1++
+        }
+    }
+
+// Experimento do FOR
+
+// Conte até 20 e exiba “Fizz” para múltiplos de 3.
+function exercicio10(){
+   for(let cont2 = 1; cont2<20; cont2++){
+    let mult2 = cont2 % 4
+    if(mult2 == 1){
+        alert("Números: " + mult2 + " Fizz")
+    }
+   }
+}
