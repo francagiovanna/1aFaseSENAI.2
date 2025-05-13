@@ -94,9 +94,62 @@ function exercicio7(){
 // Conte até 20 e exiba “Fizz” para múltiplos de 3.
 function exercicio10(){
    for(let cont2 = 1; cont2<20; cont2++){
-    let mult2 = cont2 % 4
+    let mult2 = cont2 % 3
     if(mult2 == 1){
-        alert("Números: " + mult2 + " Fizz")
+        alert("Números: " + cont2 + " Fizz")
     }
    }
+}
+
+// Voltando pro while
+
+//Conte até 20 e exiba “Buzz” para múltiplos de 5.
+    let cont3 = 1
+function exercicio11(){
+    while(cont3 <=20){
+        let mult3 = cont3 % 5
+        if(mult3 == 0){
+            alert("Números: " + cont3 + "Buzz")
+        } cont3++
+    }
+}
+// Voltando pro For
+
+// Conte quantos números pares existem entre 1 e 50.
+function exercicio12(){
+    for(let i = 1; i<50; i++){
+        let rest = i % 2
+        if(rest == 0){
+            alert("Esses são os números pares: " + i)
+        }
+    }
+}
+
+// Conte quantos múltiplos de 6 existem até 100.
+function exercicio13(){
+    for(i = 1; i<100; i++){
+        let multiplos = i % 6
+        if(multiplos == 0){
+            alert("Múltiplos: " + i)
+        }
+    }
+}
+
+// Conte de 1 a 30, pulando os múltiplos de 4.
+function exercicio14(){
+    for(i = 1; i<30; i++){
+        let up = i % 4
+        if(i % 4 !== 0){
+            alert("todos menos multiplos de 4: " + i)
+        }
+    }
+}
+
+// Some os números de 1 a 100, mas pare se a soma passar de 400.
+function exercicio15(){
+    for(i = 1; i<100; i++){
+        if(){
+            
+        }
+    }
 }
