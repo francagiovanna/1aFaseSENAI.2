@@ -148,8 +148,7 @@ function exercicio14(){
 // Some os números de 1 a 100, mas pare se a soma passar de 400.
 function exercicio15(){
     for(i = 1; i<100; i++){
-        if(){
-            
-        }
+       
     }
 }
+
