@@ -1,0 +1,29 @@
+    #login{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        align-items: center;
+        border: 1px solid #471fb4;
+        border-radius: 10px;
+        padding: 10px; 
+        margin: 10px;
+        width: 300px;
+        min-height: 400px;
+        box-shadow: 0px ;
+}
+    #cadastro{
+        display: block;
+        border: 1px solid #471fb4;
+        background-color: #7c58df;
+        border-radius: 10px;
+        padding: 10px; 
+        margin: 10px;
+        width: 300px;
+        height: 100px;
+}
+.containerInput{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
