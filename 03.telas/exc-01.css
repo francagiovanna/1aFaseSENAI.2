@@ -1,0 +1,36 @@
+h1{
+    color: rgb(118, 102, 78);
+    font-size: larger;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+h2{
+    color: rgb(167, 161, 153);
+    font-size: medium;
+    text-align: left;
+    font-family: Arial, sans-serif;
+}
+h3{
+    color: rgb(149, 143, 134);
+    font-size: larger;
+    text-align: left;
+    font-family: Arial, sans-serif;
+}
+p{
+    color: gray;
+    font-size: small;
+    font-family: 'Lucida Sans', sans-serif;
+    columns: auto;
+
+
+}
+button{
+    align-items: center;
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: #d6c576;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+}

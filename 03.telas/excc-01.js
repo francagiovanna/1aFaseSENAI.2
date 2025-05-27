@@ -1,0 +1,6 @@
+function botaoUm(){
+
+}
+function botaoDois(){
+    
+}
