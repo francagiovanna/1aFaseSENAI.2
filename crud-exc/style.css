@@ -1,0 +1,28 @@
+.container_principal{
+    display: flex;
+    width: 100%;
+}
+.titulo{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    justify-content: center;
+}
+.botao_cadastro{
+    background-color: antiquewhite;
+    border: none;
+    border-radius: 10px;
+    max-height: 30px;
+    cursor: pointer;
+}
+.conteudo_lista{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.conteudo_cadastrar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
