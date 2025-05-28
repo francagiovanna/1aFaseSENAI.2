@@ -5,18 +5,23 @@ h1{
     font-family: Arial, sans-serif;
 }
 h2{
+     flex-direction: column;
+    justify-content: center;
+    margin: 10px;
     color: rgb(167, 161, 153);
     font-size: medium;
     text-align: left;
     font-family: Arial, sans-serif;
 }
 h3{
+    margin: 10px;
     color: rgb(149, 143, 134);
     font-size: larger;
     text-align: left;
     font-family: Arial, sans-serif;
 }
 p{
+    margin: 10px;
     color: gray;
     font-size: small;
     font-family: 'Lucida Sans', sans-serif;
@@ -25,6 +30,8 @@ p{
 
 }
 button{
+    display: block;
+    margin: 0 auto;
     align-items: center;
     font-family: Arial, sans-serif;
     color: white;
@@ -33,4 +40,17 @@ button{
     border-radius: 5px;
     border: none;
     padding: 10px;
+}
+img{
+    /* position: absolute; */
+    /* top: 0px; */
+    /* right: 0px; */
+    /* width: 100px; */
+    /* height: auto; */
+
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    width: 150px;
+    height: auto;
 }
