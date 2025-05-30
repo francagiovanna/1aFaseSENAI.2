@@ -10,36 +10,45 @@
     <nav>
         <button onclick="mostrarLogin()">Login</button>
         <button onclick="mostrarCadastro()">Cadastro</button>
+        <button onclick="mostrarProdutos()">Produtos</button>
     </nav>
-    <div id="login">
+    <h3>Preencha a baixo:</h3>
+    <section id="login"> <!--São as paginas-->
         <h2>Tela Login</h2>
         <div class="containerInput">
             <label for="">Nome</label>
-            <input type="text">
+            <input type="text" id="inpLogNome">
         </div>
         <div class="containerInput">
             <label for="">Senha</label>
-            <input type="password">
+            <input type="password" id="inpLogSenha">
         </div>
         <button>Logar</button>
 
-    </div>
+    </section>
 
-    <div id="cadastro">
+    <section id="cadastro">
         <div class="containerInput">
             <label for="">Nome</label>
-            <input type="text">
+            <input type="text" id="inpCadNome">
         </div>
         <div class="containerInput">
             <label for="">E-mail</label>
-            <input type="password">
+            <input type="password" id="inpCadEmail">
         </div>
         <div class="containerInput">
             <label for="">Senha</label>
-            <input type="password">
+            <input type="password" id="inpCadSenha">
         </div>
-        <button>Logar</button>
-    </div>
+        <button>Cadastrar</button>
+    </section>
+    <section id="produtos">
+        <h2>Produtos</h2>
+        <div class="containerInput">
+            <label for="">Cadastro de Produtos</label>
+            <input type="cadastro">
+            <button>Cadastrar</button>
+    </section>
 
     <script src="script.js"></script>
 </body>
