@@ -7,13 +7,14 @@
     <title>Telas</title>
 </head>
 <body>
-    <nav>
+    <nav id="navbar">
         <button onclick="mostrarLogin()">Login</button>
         <button onclick="mostrarCadastro()">Cadastro</button>
         <button onclick="mostrarProdutos()">Produtos</button>
     </nav>
-    <h3>Preencha a baixo:</h3>
+    <main>
     <section id="login"> <!--São as paginas-->
+        <h4>Login</h4>
         <h2>Tela Login</h2>
         <div class="containerInput">
             <label for="">Nome</label>
@@ -23,11 +24,14 @@
             <label for="">Senha</label>
             <input type="password" id="inpLogSenha">
         </div>
-        <button>Logar</button>
+        <button onclick="mostrarProdutos()">Logar</button>
+        <button onclick="mostrarCadastro()" class="bt-secundario">Não tem cadastro?</button>
 
     </section>
 
     <section id="cadastro">
+        <h4>Cadastro</h4>
+        <h1>Tela Cadastro</h1>
         <div class="containerInput">
             <label for="">Nome</label>
             <input type="text" id="inpCadNome">
@@ -40,15 +44,20 @@
             <label for="">Senha</label>
             <input type="password" id="inpCadSenha">
         </div>
-        <button>Cadastrar</button>
+        <button onclick="login()">Cadastrar</button>
+        <button onclick="mostrarLogin()" class="bt-secundario">Já tenho um cadastro.</button>
     </section>
+
     <section id="produtos">
+        <h1>Tela Produtos</h1>
         <h2>Produtos</h2>
         <div class="containerInput">
             <label for="">Cadastro de Produtos</label>
             <input type="cadastro">
-            <button>Cadastrar</button>
+            <br>
+            <button onclick="mostrarLogin()" class="bt-secundario">Cadastrar</button>
     </section>
+</main>
 
     <script src="script.js"></script>
 </body>
