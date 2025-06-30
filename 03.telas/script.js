@@ -1,30 +1,51 @@
 // let nome, email, senha
+
+inicializar()
+
+let usuarios = []
+
+// let nomeTeste = ["Usuario 1", "usuario 2"]
+
+
+
 let usuario = {
-    nome:'um',
-    email:'dois',
-    senha:'nuvem'
+    nome:'',
+    email:'',
+    senha:''
 }
 function cadastro(){
-    nome = document.getElementById('inpCadNome').value
-    email = document.getElementById('inpCadEmail').value
-    senha = document.getElementById('inpSenha').value
-    alert("Cadastrado com sucesso!!")
-    
-    console.log(usuario)
+    let usuario = {
+        nome: document.getElementById('inpCadNome').value,
+        email: document.getElementById('inpCadEmail').value,
+        senha: document.getElementById('inpSenha').value
 
+    }
+    usuarios.push(usuario)
+    limparInputs()
     mostrarLogin()
+
+    alert("Cadastrado com sucesso!!")
+
+    console.log(usuarios) //só pra teste
+
 }
 function login(){
     let nome = document.getElementById('inpCadNome').value
     let senha = document.getElementById('inpCadSenha').value
     
-    if(nome === usuario.nome && senha === usuario.senha){
+    if(nome === usuario.nome || nome === usuario.email && senha === usuario.senha){
         alert("login efetuado com sucesso")
         limparInputs()
         mostrarProdutos()
     }else{
         alert("login efetuado sem sucesso")
     }
+}
+function produtos(){
+    nome = document.getElementById('inpCadNome').value
+    email = document.getElementById('inpCadEmail').value
+    senha = document.getElementById('inpSenha').value
+    alert("Produto cadastrado com sucesso!!")
 }
 function mostrarLogin(){
     document.getElementById('login').style.display = 'flex'
@@ -40,6 +61,7 @@ function mostrarCadastro(){
 function mostrarProdutos(){
     esconderTodas()
     document.getElementById('produtos').style.display = 'flex'
+    document.getElementById('navbar').style.display = 'flex'
 
 }
 function esconderTodas(){
@@ -55,4 +77,7 @@ function limparInputs(){
 
     document.getElementById('inpCadNome').value = ''
     document.getElementById('inpCadSenha').laue = ''
+}
+function inicializar(){
+
 }
